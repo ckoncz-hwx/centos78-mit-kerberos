@@ -8,7 +8,7 @@ docker build -t krb5-on-rl78 .
 ```
 - start it:
 ```
-docker run --add-host kerberos.example.com:127.0.0.1 --name my-kdc krb5-on-rl78
+docker run --add-host kerberos.example.com:127.0.0.1 --name my-kdc -d krb5-on-rl78
 ```
 - test it:
 ```
